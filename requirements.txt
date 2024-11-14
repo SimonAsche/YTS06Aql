@@ -1,0 +1,13 @@
+playwright>=1.41.0        # Browser automation framework, used for controlling web browsers
+agentql>=0.5.0            # Stealth mode and request management library
+aiohttp>=3.9.1            # Asynchronous HTTP client/server framework (retain if needed)
+pandas>=2.1.4             # Data manipulation and analysis library (optional)
+pydantic>=2.5.3           # Data validation using Python type annotations
+python-dotenv>=1.0.0      # Loads environment variables from a .env file
+loguru>=0.7.2             # Logging library with a simpler interface than the standard logging (optional)
+tqdm>=4.66.1              # Progress bar library for loops and long-running operations (optional)
+pytest>=7.0.0             # For testing
+black>=23.0.0             # For code formatting
+mypy>=1.0.0               # For type checking
+pytest-asyncio>=0.23.0    # For testing async code
+openpyxl>=3.1.2            # Add this - needed for Excel operations
